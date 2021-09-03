@@ -1,0 +1,10 @@
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:60px;
+    font-variant: small-caps;
+    font-style: italic;
+}
+p{
+    font-family: monospace;
+    line-height: 50px;
+} 
