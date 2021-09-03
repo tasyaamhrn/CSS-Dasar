@@ -1,0 +1,10 @@
+h1{
+     color:cadetblue;
+     font-size: 100px;
+     
+}
+p{
+    text-indent: 100px;
+  text-transform: capitalize;
+  word-spacing: 10px;
+}
