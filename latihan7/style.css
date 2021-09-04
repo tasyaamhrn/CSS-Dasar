@@ -1,0 +1,11 @@
+/* elemen yg ada di dalam body akan berubah
+namun elemen <a> tidak berubah karena elemen <a> tidak mewarisi nilai dari property color */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:green ;
+}
+/* karena elemen a tadi tdk bisa diwarisi dari body maka elemen a harus 
+harus diberi color inherit yg artinya sesuai dengan color yg diberikan pada parent(body) */
+a{
+    color: inherit;
+}
