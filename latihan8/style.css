@@ -1,0 +1,14 @@
+/* #p1 lebih spesifik dari p */
+#p1 {
+    color:red;
+}
+
+p {
+    color:green;
+}
+ul#sarapan li{
+    color:hotpink;
+}
+ul#sarapan li.favorit{
+    color: indigo;
+}
