@@ -1,0 +1,28 @@
+.hello{
+    color:darkgoldenrod;
+}
+.hello:hover{
+    color:darkgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.hello:active{
+    font-style: italic;
+
+}
+.hello:visited{
+    color:darkolivegreen;
+}
+/* style css a yang ada di dalem li yang merupakan anak ke brp tergantung child yg diminta */
+li:nth-child(even) a{
+color:darkred;
+}
+li:nth-child(even) a:hover{
+    color:darksalmon;
+}
+p:first-of-type{
+    color:darkturquoise;
+}
+p:last-of-type{
+    color:lawngreen;
+}
